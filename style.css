@@ -1,0 +1,345 @@
+
+ /* .wrapper{
+    width: 1000px;
+    height: 400px;
+    
+}  */
+/* .div-1{
+    width: calc(150% + 150%);
+    height: 100%;
+}
+.div-2{
+    height: 100%;
+    background-color: black;
+    border-left: 130px solid gray;
+    border-bottom: 120px solid green;
+    box-sizing: border-box;
+} */
+/* .div-1{
+    width: calc(50% -50%);
+    height: 100%;
+    background-color: red;
+    padding: 2% 5%;
+    line-height: 1.5em;
+}
+.div-2{
+    width: calc(50% + 50%);
+    height: 100%;
+    background-color: aquamarine;
+    border-left: 100px solid white;
+}
+
+ */
+
+
+.coin{
+    width: 250px;
+    /* background-color: white; */
+}
+.girl.img-fluid{
+    /* background-image: url(./girls.jpg); */
+    height: 370px;
+    width: 100%;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+      /* position: relative; */
+}
+.navbar1{
+    background-image: linear-gradient(to right, #004225 , green, #004225);
+}
+.navbar2{
+    background-image: linear-gradient(to right, #8B8000,#FFC000,#b3a405);
+}
+.pro{
+    font-size: 27px;
+    font-weight: 600;
+    color: white;
+}
+.kgo{
+    font-size: 43px;
+    font-weight: 600;
+    color: white; 
+    font-family: 'Work Sans', sans-serif;
+
+}
+.navbar3{
+    background-color: rgb(26, 25, 25);
+}
+.on{
+    font-size: 18px;
+    font-weight: 400;
+    color: white; 
+}
+.ab{
+    background-color: #E5E4E2	;
+}
+.ab1{
+    background-color: #E5E4E2	;
+    width: 100%;
+}
+.live{
+    background-color: rgba(0, 0, 0, 0.849);
+}
+.dis{
+    color: white;
+    height: 25px;
+    font-weight: bold;
+}
+.in{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.info{
+    font-weight: bold;
+    font-size: 35px;
+}
+.card.side{
+    border-bottom-left-radius: 70px;
+}
+.dis1{
+    color: white;
+    height: 25px;
+    font-weight: bold;
+    height: 47px;
+    width: 37px;
+    background-color: black;
+    border-radius: 50%;
+}
+.lorem{
+    font-size: 7px;
+    font-weight: 600;
+}
+.card.side2{
+    border-bottom-left-radius: 47px;
+}
+.lorem1{
+    height: 280px;
+}
+.material-symbols-outlined.dis3{
+    font-size: 35px;
+    color: white;
+}
+.material-symbols-outlined.dis{
+    font-size: 37px;
+    color: white;
+}
+.img-fluid.man{
+    height: 90px;
+    width: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.mil{
+    font-size: 17px;
+}
+.gra{
+    font-size: 11px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+}
+.add{
+    background-color: rgb(77, 208, 202);
+    margin-top: -10px;
+    color: white;
+    font-weight: 600;
+    border-radius: 12px;
+}
+.card.under{
+    height: 57px;
+    width: 57px;
+    border-radius: 40px;
+}
+.img-fluid.hi{
+    height: 52px;
+    width: 49px;
+    margin-left: 3px;
+    border-radius: 40px;
+
+}
+.in1{
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: -40px;
+}
+.live1{
+    background-image: linear-gradient(to right,#eab002,#a19402);
+}
+.ipsum{
+    font-size: 14px;
+}
+.card.abc{
+    background-color: rgb(241, 237, 237);
+    border: none;
+}
+.card.sid1{
+    border: none;
+    border-bottom-left-radius: 40px;
+}
+.card.mark{
+    height: 40px;
+    width: 40px;
+    border-radius: 22px;
+    background-image: radial-gradient(rgb(0,100,0),rgb(2, 48, 32) ,#008a00 );
+}
+.photo{
+    color: white;
+}
+.card.post{
+    background-color: rgb(77, 208, 202);
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+.card.mark1{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background-image: radial-gradient(rgb(0,100,0),rgb(2, 48, 32) ,#008a00 );
+}
+.material-symbols-outlined.photo1{
+    font-size: 32px;
+    color: white;
+}
+.card.test{
+    background-color: rgb(77, 208, 202);
+}
+.test{
+    color: white;
+}
+.test1{
+    font-size: 24px;
+}
+.card.test2{
+    background-color: rgba(128, 128, 128, 0.781);
+    border: none;
+    height: 35px;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: lightblue;
+  }
+  main{
+    background-color: red;
+    color: firebrick;
+  }
+  input.form-control{
+    height: 55px;
+    border-radius: 30px;
+}
+input.form-control::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+}
+@media (min-width:200px) and (max-width:480px) {
+    .pro{
+        text-align: center;
+    }
+    .kgo{
+        text-align: center;
+    }
+    .on{
+        margin-left: 140px;
+    }
+    .img-fluid.man{
+        margin-left: 70px;
+        height: 150px;
+    }
+    .mil{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .gra{
+        text-align: center;
+    }
+    .in1{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .card.under{
+        margin-left: 120px;
+    }
+    .card.mark{
+        text-align: center;
+    }
+    .card.emi{
+        margin-left: 50px;
+        margin-top: -40px;
+    }
+    .card.emi2{
+        margin-left: 103px;
+        margin-top: -40px;
+    }
+    .card.emi3{
+        margin-left: 150px;
+        margin-top: -40px;
+    }
+    .card.emi4{
+        margin-left: 199px;
+        margin-top: -40px;
+    }
+    .card.emi5{
+        margin-left: 250px;
+        margin-top: -40px;
+    }
+    .post{
+        margin-top: 15px;
+    }
+    .mess1{
+        margin-left: 64px;
+        margin-top: -60px;
+    }
+    .mess2{
+        margin-left: 128px;
+        margin-top: -60px;
+    }
+    .mess3{
+        margin-left: 193px;
+        margin-top: -60px;
+    }
+    .mess4{
+        margin-left: 257px;
+        margin-top: -60px;
+    }
+    .test1{
+        position: relative;
+        top: -24px;
+        left: 40px;
+    }
+    .test11{
+        position: relative;
+        top: 16px;
+    }
+
+
+}
+@media (min-width:480px) and (max-width:780px){
+    .on{
+        position: absolute;
+        left: 0px;
+    }
+    .card.mark{
+        display: none;
+    }
+    .in1{
+        margin-left: 5px;
+    }
+    .input.form-control{
+        min-width: 10px;
+    }
+}
+@media (min-width:780px) and (max-width:1024px){
+    .card.mark{
+        display: none;
+    }
+    .in1{
+        margin-left: 5px;
+    }
+}
